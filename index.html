@@ -151,9 +151,9 @@ footer strong{color:rgba(255,255,255,.65)}
     <li><a href="#results">Results</a></li>
     <li><a href="#pricing">Pricing</a></li>
     <li><a href="#about">About Us</a></li>
-    <li><a href="https://freshcleanbinsca.setmore.com/book" target="_blank" rel="noopener">Book Now</a></li>
+    <li><a href="#contact">Book Now</a></li>
   </ul>
-  <a href="https://freshcleanbinsca.setmore.com/book" target="_blank" rel="noopener" class="nav-cta">Book Now</a>
+  <a href="#contact" class="nav-cta">Book Now</a>
 </nav>
 
 <section class="hero">
@@ -162,7 +162,7 @@ footer strong{color:rgba(255,255,255,.65)}
     <h1>Etobicoke's <span>Bin Cleaning</span> Experts</h1>
     <p>Professional garbage, recycling &amp; organics bin cleaning — fully mobile setup with our own water supply and gas-powered pressure washer for a deeper, faster clean, right at your doorstep.</p>
     <div class="hero-btns">
-      <a href="https://freshcleanbinsca.setmore.com/book" target="_blank" rel="noopener" class="btn-primary">📅 Book a Cleaning</a>
+      <a href="#contact" class="btn-primary">📅 Book a Cleaning</a>
       <a href="#how-it-works" class="btn-outline">See How It Works</a>
     </div>
   </div>
@@ -225,7 +225,7 @@ footer strong{color:rgba(255,255,255,.65)}
         <div class="price-amount"><sup>$</sup>30</div>
         <div class="price-detail">Per bin, per cleaning</div>
         <ul class="price-features"><li>1 bin of your choice</li><li>Soak + Pressure Wash</li><li>Eco-safe deodorize</li><li>Doorstep service</li></ul>
-        <button class="price-btn" onclick="window.open('https://freshcleanbinsca.setmore.com/book','_blank')">Book This</button>
+        <button class="price-btn" onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'})">Book This</button>
       </div>
       <div class="price-card featured">
         <div class="featured-badge">Best Value</div>
@@ -233,7 +233,7 @@ footer strong{color:rgba(255,255,255,.65)}
         <div class="price-amount"><sup>$</sup>60</div>
         <div class="price-detail">Garbage + Recycling + Organics</div>
         <ul class="price-features"><li>All 3 bins cleaned</li><li>Soak + Pressure Wash</li><li>Eco-safe deodorize</li><li>Doorstep service</li></ul>
-        <button class="price-btn" onclick="window.open('https://freshcleanbinsca.setmore.com/book','_blank')">Book This</button>
+        <button class="price-btn" onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'})">Book This</button>
       </div>
     </div>
     <p style="font-size:.85rem;color:var(--gray);margin-top:1.5rem">Pricing shown is for Etobicoke. A small travel premium applies for service outside Etobicoke.</p>
@@ -284,12 +284,14 @@ footer strong{color:rgba(255,255,255,.65)}
   </div>
 </section>
 
-<section class="contact-section">
+<section class="contact-section" id="contact">
   <div class="container">
     <p class="section-label" style="text-align:center">Get In Touch</p>
     <h2 class="section-title" style="color:#fff;text-align:center">Contact <span>Us</span></h2>
+    <p style="text-align:center;color:rgba(255,255,255,.6);margin-top:.5rem">Call, text, or email us to book — Chris will get back to you within 24 hours.</p>
     <div class="contact-items">
-      <a href="tel:6472991575" class="contact-item"><span>📞</span>647-299-1575</a>
+      <a href="tel:6472991575" class="contact-item"><span>📞</span>Call — 647-299-1575</a>
+      <a href="sms:6472991575" class="contact-item"><span>💬</span>Text — 647-299-1575</a>
       <a href="mailto:chris@freshcleanbins.ca" class="contact-item"><span>✉️</span>chris@freshcleanbins.ca</a>
       <a href="https://instagram.com/freshcleanbins.ca" target="_blank" class="contact-item"><span>📸</span>@freshcleanbins.ca</a>
     </div>
